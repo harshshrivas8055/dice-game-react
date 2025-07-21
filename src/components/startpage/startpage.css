@@ -1,0 +1,45 @@
+.dices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+
+.dices .hero img {
+    object-fit: fill;
+}
+
+
+.dices .start h1 {
+    font-size: 100px;
+    color: black;
+    text-shadow: 30px 30px 10px #8f8f8f;
+    
+}
+
+.dices .start button {
+    all: unset;
+    float: right;
+    margin-right: 100px;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    padding: 9px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    border-radius: 2px;
+    font-weight: bold;
+    transition: all 200ms ease-in-out;
+    position: relative;
+
+}
+
+.dices .start button:hover {
+    color: black;
+    background-color: white;
+    transform: translateX(-10px); /* Slides to the left */
+
+}
